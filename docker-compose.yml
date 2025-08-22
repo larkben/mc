@@ -1,0 +1,32 @@
+services:
+  mc:
+    image: itzg/minecraft-server:java17
+    container_name: fabric-mc
+    environment:
+      EULA: "TRUE"                # must be TRUE or it won't start
+      TYPE: "FABRIC"              # <-- this switches to Fabric
+      VERSION: "1.20.1"           # choose your MC version
+      # FABRIC_LOADER_VERSION: "0.15.11"  # optional pin
+      MEMORY: "4G"                # tune for your machine (e.g., 2G on a Pi)
+      MOTD: "Fabric server on Docker"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "changeme"
+      RCON_PORT: "25575"
+      # Optional QoL:
+      TZ: "America/Chicago"
+      USE_AIKAR_FLAGS: "true"
+      VIEW_DISTANCE: "10"
+      SIMULATION_DISTANCE: "8"
+      MAX_PLAYERS: "10"
+      ONLINE_MODE: "true"
+    ports:
+      - "25565:25565/tcp"
+      - "25565:25565/udp"
+      - "25575:25575"
+    volumes:
+      - ./data:/data          # world, config, server.properties live here
+      - ./mods:/mods          # drop Fabric mods here
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+

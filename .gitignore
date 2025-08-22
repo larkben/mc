@@ -1,1 +1,7 @@
+# keep these out of git
+/data/
+/mods/
+backups/
+*.log
 .vscode
+
