@@ -1,10 +1,10 @@
-FROM itzg/minecraft-server:java17
+FROM itzg/minecraft-server:java21
 
 # ---- Base settings (override in Railway env if you want) ----
 ENV EULA=TRUE \
     TYPE=FABRIC \
-    VERSION=1.20.1 \
-    MEMORY=4G \
+    VERSION=1.21.1 \
+    MEMORY=8G \
     TZ=America/Chicago \
     ENABLE_RCON=true \
     RCON_PASSWORD=changeme \

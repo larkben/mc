@@ -7,7 +7,7 @@ services:
       TYPE: "FABRIC"              # <-- this switches to Fabric
       VERSION: "1.21.1"           # choose your MC version
       # FABRIC_LOADER_VERSION: "0.15.11"  # optional pin
-      MEMORY: "4G"                # tune for your machine (e.g., 2G on a Pi)
+      MEMORY: "8G"                # tune for your machine (e.g., 2G on a Pi)
       MOTD: "Fabric server on Docker"
       ENABLE_RCON: "true"
       RCON_PASSWORD: "changeme"
