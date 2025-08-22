@@ -1,11 +1,11 @@
 services:
   mc:
-    image: itzg/minecraft-server:java17
+    image: itzg/minecraft-server:java21
     container_name: fabric-mc
     environment:
       EULA: "TRUE"                # must be TRUE or it won't start
       TYPE: "FABRIC"              # <-- this switches to Fabric
-      VERSION: "1.20.1"           # choose your MC version
+      VERSION: "1.21.1"           # choose your MC version
       # FABRIC_LOADER_VERSION: "0.15.11"  # optional pin
       MEMORY: "4G"                # tune for your machine (e.g., 2G on a Pi)
       MOTD: "Fabric server on Docker"
@@ -19,13 +19,15 @@ services:
       SIMULATION_DISTANCE: "8"
       MAX_PLAYERS: "10"
       ONLINE_MODE: "true"
+      MODS_FILE: /extras/mods.txt
+      REMOVE_OLD_MODS: "TRUE"
     ports:
       - "25565:25565/tcp"
       - "25565:25565/udp"
       - "25575:25575"
     volumes:
-      - ./data:/data          # world, config, server.properties live here
-      - ./mods:/mods          # drop Fabric mods here
+      - ./data:/data              # world, config, server.properties live here
+      - ./extras/mods.txt:/extras/mods.txt:ro          # drop Fabric mods here
     restart: unless-stopped
     tty: true
     stdin_open: true
