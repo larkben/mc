@@ -1,20 +1,15 @@
 FROM itzg/minecraft-server:java21
 
-# ---- Base settings (override in Railway env if you want) ----
 ENV EULA=TRUE \
     TYPE=FABRIC \
     VERSION=1.21.1 \
-    MEMORY=8G \
-    TZ=America/Chicago \
-    ENABLE_RCON=true \
-    RCON_PASSWORD=changeme \
-    RCON_PORT=25575 \
-    ONLINE_MODE=true
+    MEMORY=4G \
+    MODS_FILE=/extras/mods.txt \
+    REMOVE_OLD_MODS=TRUE
 
-# Mods management: point container at a text file of URLs
-# (the actual jars will be downloaded into the mounted /data volume)
-COPY mods.txt /extras/mods.txt
-ENV MODS_FILE=/extras/mods.txt
-# Clean out old jars on deploy so your mods list is the authority
-ENV REMOVE_OLD_MODS=TRUE
+# Bake mods list into the image so Railway doesn’t need a bind mount
+COPY extras/mods.txt /extras/mods.txt
+
+EXPOSE 25565
+
 
