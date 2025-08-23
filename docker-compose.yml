@@ -3,16 +3,16 @@ services:
     image: itzg/minecraft-server:java21
     container_name: fabric-mc
     environment:
-      EULA: "TRUE"                # must be TRUE or it won't start
-      TYPE: "FABRIC"              # <-- this switches to Fabric
-      VERSION: "1.21.1"           # choose your MC version
-      # FABRIC_LOADER_VERSION: "0.15.11"  # optional pin
-      MEMORY: "8G"                # tune for your machine (e.g., 2G on a Pi)
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      VERSION: "1.21.1"
+      MEMORY: "8G"
       MOTD: "Fabric server on Docker"
+
       ENABLE_RCON: "true"
       RCON_PASSWORD: "changeme"
       RCON_PORT: "25575"
-      # Optional QoL:
+
       TZ: "America/Chicago"
       USE_AIKAR_FLAGS: "true"
       VIEW_DISTANCE: "10"
@@ -21,14 +21,29 @@ services:
       ONLINE_MODE: "true"
       MODS_FILE: /extras/mods.txt
       REMOVE_OLD_MODS: "TRUE"
+
+      # --- Auto-stop BEFORE Railway's 10-min idle window ---
+      ENABLE_AUTOSTOP: "TRUE"
+      AUTOSTOP_TIMEOUT_EST: "480"    # 8 min after last player leaves
+      AUTOSTOP_TIMEOUT_INIT: "600"   # 10 min if nobody ever joins
+      AUTOSTOP_PERIOD: "10"          # check interval (secs)
+      ENABLE_QUERY: "true"           # helps detect player count
+
+      # Optional: run a save on a timer (see note below)
+      # RCON_CMDS_ON_CONNECT: "save-all flush"
+
     ports:
       - "25565:25565/tcp"
       - "25565:25565/udp"
       - "25575:25575"
+
     volumes:
-      - ./data:/data              # world, config, server.properties live here
-      - ./extras/mods.txt:/extras/mods.txt:ro          # drop Fabric mods here
-    restart: unless-stopped
+      - ./data:/data
+      - ./extras/mods.txt:/extras/mods.txt:ro
+
+    # Let the server stop cleanly; don't auto-restart after autostop
+    restart: "no"
+    stop_grace_period: 2m
+
     tty: true
     stdin_open: true
-
