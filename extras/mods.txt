@@ -16,9 +16,6 @@ https://cdn.modrinth.com/data/rOUBggPv/versions/XMcUxulR/supermartijn642corelib-
 https://cdn.modrinth.com/data/lhGA9TYQ/versions/Wto0RchG/architectury-13.0.8-fabric.jar
 https://cdn.modrinth.com/data/M1953qlQ/versions/dQh99ERC/resourcefulconfig-fabric-1.21-3.0.11.jar
 
-# Dungeons and Taverns
-https://cdn.modrinth.com/data/tpehi7ww/versions/upyHsGeL/dungeons-and-taverns-v4.7.3.jar
-
 # Air Travel
 https://cdn.modrinth.com/data/x3HZvrj6/versions/X53uI9eW/immersive_aircraft-1.3.3%2B1.21.1-fabric.jar
 
@@ -27,15 +24,6 @@ https://cdn.modrinth.com/data/zCh7omyG/versions/kOnpndPm/betterarcheology-fabric
 
 # Storage Drawers
 https://cdn.modrinth.com/data/guitPqEi/versions/lymUpsoT/StorageDrawers-fabric-1.21.1-13.10.1.jar
-
-# Elevators
-https://cdn.modrinth.com/data/9KZOe6HD/versions/3oUjHjM8/movingelevators-1.4.11-fabric-mc1.21.jar
-
-# Bunkers
-https://cdn.modrinth.com/data/MRK4tULJ/versions/IOxi2RHE/UndergroundBunkers-1.0.4-1.21.x-fabric.jar
-
-# Witchcraft
-https://cdn.modrinth.com/data/HsbpdVo9/versions/EQXsxI4Q/enchanted-fabric-1.21.1-4.2.1.jar
 
 # CC Tweaked
 https://cdn.modrinth.com/data/gu7yAYhd/versions/uSvNcEoZ/cc-tweaked-1.21.1-fabric-1.116.1.jar
