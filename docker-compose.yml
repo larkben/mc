@@ -6,7 +6,7 @@ services:
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "1.21.1"
-      MEMORY: "8G"
+      MEMORY: "7G"
       MOTD: "Fabric server on Docker"
 
       ENABLE_RCON: "true"
@@ -28,7 +28,7 @@ services:
       AUTOSTOP_TIMEOUT_INIT: "480"   # 10 min if nobody ever joins
       AUTOSTOP_PERIOD: "10"          # check interval (secs)
       ENABLE_QUERY: "true"           # helps detect player count
-  
+
       # Optional: run a save on a timer (see note below)
       # RCON_CMDS_ON_CONNECT: "save-all flush"
 
