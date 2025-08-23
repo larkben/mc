@@ -3,6 +3,15 @@ https://cdn.modrinth.com/data/P7dR8mSH/versions/gymiiTwJ/fabric-api-0.116.5%2B1.
 https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar
 https://cdn.modrinth.com/data/gvQqBUqZ/versions/MM5BBBOK/lithium-fabric-0.15.0%2Bmc1.21.1.jar
 
+# Dependencies
+https://cdn.modrinth.com/data/MBAkmtvl/versions/gAqyWsf3/balm-fabric-1.21.1-21.0.49.jar
+https://cdn.modrinth.com/data/ohNO6lps/versions/NZACeAT3/ForgeConfigAPIPort-v21.1.4-1.21.1-Fabric.jar
+https://cdn.modrinth.com/data/8BmcQJ2H/versions/aHSu8jaP/geckolib-fabric-1.21.1-4.7.6.jar
+https://cdn.modrinth.com/data/SYrakyVL/versions/Hpg4BIe6/modopedia-fabric-1.21.1-1.1.5.jar
+https://cdn.modrinth.com/data/D1lhcTKz/versions/INJWFKpA/stateobserver-fabric-1.21.1-1.6.3.jar
+https://cdn.modrinth.com/data/LN9BxssP/versions/euSlaAtA/supermartijn642configlib-1.1.8-fabric-mc1.21.jar
+https://cdn.modrinth.com/data/rOUBggPv/versions/XMcUxulR/supermartijn642corelib-1.1.18a-fabric-mc1.21.jar
+
 # Waystones
 https://cdn.modrinth.com/data/LOpKHB2A/versions/USFFIy4C/waystones-fabric-1.20.1-14.1.17.jar
 
@@ -29,9 +38,6 @@ https://cdn.modrinth.com/data/9KZOe6HD/versions/3oUjHjM8/movingelevators-1.4.11-
 
 # Bunkers
 https://cdn.modrinth.com/data/MRK4tULJ/versions/IOxi2RHE/UndergroundBunkers-1.0.4-1.21.x-fabric.jar
-
-# Guns
-https://cdn.modrinth.com/data/gLko9Axn/versions/bTnH3hih/gamingbarns-guns-v1.23-data.jar
 
 # Witchcraft
 https://cdn.modrinth.com/data/HsbpdVo9/versions/EQXsxI4Q/enchanted-fabric-1.21.1-4.2.1.jar
