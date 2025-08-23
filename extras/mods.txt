@@ -15,16 +15,12 @@ https://cdn.modrinth.com/data/rOUBggPv/versions/XMcUxulR/supermartijn642corelib-
 # Possible Fixes
 https://cdn.modrinth.com/data/lhGA9TYQ/versions/Wto0RchG/architectury-13.0.8-fabric.jar
 https://cdn.modrinth.com/data/M1953qlQ/versions/dQh99ERC/resourcefulconfig-fabric-1.21-3.0.11.jar
-https://cdn.modrinth.com/data/XaDC71GB/versions/6CQBDLeo/lithostitched-fabric-1.21.1-1.4.11.jar
 
 # Waystones
 https://cdn.modrinth.com/data/LOpKHB2A/versions/USFFIy4C/waystones-fabric-1.20.1-14.1.17.jar
 
 # Dungeons and Taverns
 https://cdn.modrinth.com/data/tpehi7ww/versions/upyHsGeL/dungeons-and-taverns-v4.7.3.jar
-
-# Tectonic
-https://cdn.modrinth.com/data/lWDHr9jE/versions/SyzFM9oa/tectonic-3.0.12-fabric-1.21.8.jar
 
 # Air Travel
 https://cdn.modrinth.com/data/x3HZvrj6/versions/X53uI9eW/immersive_aircraft-1.3.3%2B1.21.1-fabric.jar
