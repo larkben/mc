@@ -12,6 +12,11 @@ https://cdn.modrinth.com/data/D1lhcTKz/versions/INJWFKpA/stateobserver-fabric-1.
 https://cdn.modrinth.com/data/LN9BxssP/versions/euSlaAtA/supermartijn642configlib-1.1.8-fabric-mc1.21.jar
 https://cdn.modrinth.com/data/rOUBggPv/versions/XMcUxulR/supermartijn642corelib-1.1.18a-fabric-mc1.21.jar
 
+# Possible Fixes
+https://cdn.modrinth.com/data/lhGA9TYQ/versions/Wto0RchG/architectury-13.0.8-fabric.jar
+https://cdn.modrinth.com/data/M1953qlQ/versions/dQh99ERC/resourcefulconfig-fabric-1.21-3.0.11.jar
+https://cdn.modrinth.com/data/XaDC71GB/versions/6CQBDLeo/lithostitched-fabric-1.21.1-1.4.11.jar
+
 # Waystones
 https://cdn.modrinth.com/data/LOpKHB2A/versions/USFFIy4C/waystones-fabric-1.20.1-14.1.17.jar
 
