@@ -6,7 +6,7 @@ services:
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "1.21.1"
-      MEMORY: "7G"
+      MEMORY: "4G"
       MOTD: "Fabric server on Docker"
 
       ENABLE_RCON: "true"
