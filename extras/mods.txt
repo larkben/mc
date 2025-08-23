@@ -25,9 +25,6 @@ https://cdn.modrinth.com/data/x3HZvrj6/versions/X53uI9eW/immersive_aircraft-1.3.
 # Fossils
 https://cdn.modrinth.com/data/zCh7omyG/versions/kOnpndPm/betterarcheology-fabric-1.3.2.jar
 
-# Backpack
-https://cdn.modrinth.com/data/I0UYcPa0/versions/le0fuSb3/inmis-2.8.1-1.21.1.jar
-
 # Storage Drawers
 https://cdn.modrinth.com/data/guitPqEi/versions/lymUpsoT/StorageDrawers-fabric-1.21.1-13.10.1.jar
 
