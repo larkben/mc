@@ -3,6 +3,9 @@ https://cdn.modrinth.com/data/P7dR8mSH/versions/gymiiTwJ/fabric-api-0.116.5%2B1.
 https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar
 https://cdn.modrinth.com/data/gvQqBUqZ/versions/MM5BBBOK/lithium-fabric-0.15.0%2Bmc1.21.1.jar
 
+# Ridable Pokemon
+https://cdn.modrinth.com/data/vXREhDPP/versions/Ts9Wi7Kt/cobbleride-fabric-0.3.3%2B1.21.1.jar
+
 # Dependencies
 https://cdn.modrinth.com/data/MBAkmtvl/versions/gAqyWsf3/balm-fabric-1.21.1-21.0.49.jar
 https://cdn.modrinth.com/data/ohNO6lps/versions/NZACeAT3/ForgeConfigAPIPort-v21.1.4-1.21.1-Fabric.jar
@@ -21,3 +24,15 @@ https://cdn.modrinth.com/data/x3HZvrj6/versions/X53uI9eW/immersive_aircraft-1.3.
 
 # Fossils
 https://cdn.modrinth.com/data/zCh7omyG/versions/kOnpndPm/betterarcheology-fabric-1.3.2.jar
+
+# Waystones
+https://cdn.modrinth.com/data/sTZr7NVo/versions/LUSqgrjd/wraith-waystones-3.3.4%2Bmc1.21.1.jar
+# Journey Map
+https://cdn.modrinth.com/data/lfHFW1mp/versions/WvOAHk8e/journeymap-fabric-1.21.1-6.0.0-beta.52.jar
+# Noisium
+https://cdn.modrinth.com/data/KuNKN7d2/versions/4sGQgiu2/noisium-fabric-2.3.0%2Bmc1.21-1.21.1.jar
+# MVS
+https://cdn.modrinth.com/data/OQAgZMH1/versions/9BxIfLvU/mvs-4.2.9-1.21.jar
+# Dungeons
+https://cdn.modrinth.com/data/8DfbfASn/versions/lTNnufP5/DungeonsArise-1.21.1-2.1.64-fabric-release.jar
+https://cdn.modrinth.com/data/ZsrrjDbP/versions/qY6mQXNz/DungeonsAriseSevenSeas-1.21.x-1.0.3-fabric.jar
