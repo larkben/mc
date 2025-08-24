@@ -16,6 +16,16 @@ ENV EULA=TRUE \
     RCON_PASSWORD=changeme \
     RCON_PORT=25575
 
+# tiny wrapper that runs the server AND a conditional keep-alive loop
+COPY keepalive.sh /usr/local/bin/keepalive.sh
+RUN chmod +x /usr/local/bin/keepalive.sh
+
+# run wrapper (which starts /start and the loop)
+CMD ["/usr/local/bin/keepalive.sh"]
+
+# optional: bake your mods list
+# COPY extras/mods.txt /extras/mods.txt
+
 # Bake the mods list so Railway doesn't need a bind mount for it
 COPY extras/mods.txt /extras/mods.txt
 
