@@ -9,6 +9,7 @@ services:
       MEMORY: "4G"
       MOTD: "Fabric server on Docker"
 
+      # Remote console (set the password in Railway env, not here)
       ENABLE_RCON: "true"
       RCON_PASSWORD: "changeme"
       RCON_PORT: "25575"
@@ -19,18 +20,12 @@ services:
       SIMULATION_DISTANCE: "8"
       MAX_PLAYERS: "10"
       ONLINE_MODE: "true"
+
       MODS_FILE: /extras/mods.txt
       REMOVE_OLD_MODS: "TRUE"
 
-      # --- Auto-stop BEFORE Railway's 10-min idle window ---
-      ENABLE_AUTOSTOP: "TRUE"
-      AUTOSTOP_TIMEOUT_EST: "300"    # 5 min after last player leaves
-      AUTOSTOP_TIMEOUT_INIT: "480"   # 10 min if nobody ever joins
-      AUTOSTOP_PERIOD: "10"          # check interval (secs)
-      ENABLE_QUERY: "true"           # helps detect player count
-
-      # Optional: run a save on a timer (see note below)
-      # RCON_CMDS_ON_CONNECT: "save-all flush"
+      # IMPORTANT: no Auto-Stop variables here
+      ENABLE_QUERY: "true"   # keep this; helpful for player count / tools
 
     ports:
       - "25565:25565/tcp"
@@ -41,8 +36,7 @@ services:
       - ./data:/data
       - ./extras/mods.txt:/extras/mods.txt:ro
 
-    # Let the server stop cleanly; don't auto-restart after autostop
-    restart: "no"
+    restart: unless-stopped     # restart on crash; does not interfere with sleep
     stop_grace_period: 2m
 
     tty: true
