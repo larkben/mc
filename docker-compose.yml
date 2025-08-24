@@ -6,7 +6,7 @@ services:
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "1.21.1"
-      MEMORY: "7G"
+      MEMORY: "6G"
       MOTD: "Fabric server on Docker"
 
       # Remote console (set the password in Railway env, not here)
