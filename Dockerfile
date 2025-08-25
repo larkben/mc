@@ -14,7 +14,8 @@ ENV EULA=TRUE \
     ENABLE_QUERY=TRUE \
     ENABLE_RCON=TRUE \
     RCON_PASSWORD=changeme \
-    RCON_PORT=25575
+    RCON_PORT=25575 \
+    ALLOW_FLIGHT=TRUE
 
 # tiny wrapper that runs the server AND a conditional keep-alive loop
 COPY keepalive.sh /usr/local/bin/keepalive.sh
