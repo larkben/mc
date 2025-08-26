@@ -19,4 +19,4 @@
 - client side performance mods / tweaks?
 
 ## Designed for deployment on Railway
-Railway uses docker containers for deployment. Working.
+Railway uses docker containers for deployment. Working. Uses a keep-alive script to continue to make outbound pings as long as players are in the server else server goes to sleep and costs zero.
