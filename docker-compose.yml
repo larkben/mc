@@ -1,15 +1,10 @@
-services:
-  mc:
-    image: itzg/minecraft-server:java21
-    container_name: fabric-mc
     environment:
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "1.21.1"
-      MEMORY: "6G"
+      MEMORY: "8G"
       MOTD: "Fabric server on Docker"
 
-      # Remote console (set the password in Railway env, not here)
       ENABLE_RCON: "true"
       RCON_PASSWORD: "changeme"
       RCON_PORT: "25575"
@@ -24,23 +19,17 @@ services:
       MODS_FILE: /extras/mods.txt
       REMOVE_OLD_MODS: "TRUE"
 
-      # IMPORTANT: no Auto-Stop variables here
-      ENABLE_QUERY: "true"   # keep this; helpful for player count / tools
-
-      # Important for modded aircraft
+      ENABLE_QUERY: "true"
       ALLOW_FLIGHT: "true"
 
+      JVM_OPTS: "-Dfml.readTimeout=90 -Djava.net.preferIPv4Stack=true"
+      ENABLE_TCP_KEEPALIVE: "true"
+
     ports:
-      - "25565:25565/tcp"
-      - "25565:25565/udp"
+      - "25565:25565"
       - "25575:25575"
 
-    volumes:
-      - ./data:/data
-      - ./extras/mods.txt:/extras/mods.txt:ro
-
-    restart: unless-stopped     # restart on crash; does not interfere with sleep
-    stop_grace_period: 2m
-
-    tty: true
-    stdin_open: true
+    sysctls:
+      net.ipv4.tcp_keepalive_time: 60
+      net.ipv4.tcp_keepalive_intvl: 10
+      net.ipv4.tcp_keepalive_probes: 5

@@ -15,7 +15,9 @@ ENV EULA=TRUE \
     ENABLE_RCON=TRUE \
     RCON_PASSWORD=changeme \
     RCON_PORT=25575 \
-    ALLOW_FLIGHT=TRUE
+    ALLOW_FLIGHT=TRUE \
+    JVM_OPTS="-Dfml.readTimeout=90 -Djava.net.preferIPv4Stack=true" \
+    ENABLE_TCP_KEEPALIVE="true"
 
 # tiny wrapper that runs the server AND a conditional keep-alive loop
 COPY keepalive.sh /usr/local/bin/keepalive.sh
