@@ -48,3 +48,4 @@ https://cdn.modrinth.com/data/ouNrBQtq/versions/nHhuPdda/sophisticatedbackpacks-
 https://cdn.modrinth.com/data/9jxwkYQL/versions/16yRmlgI/sophisticatedcore-1.21.1-1.2.9.19.161.jar
 https://cdn.modrinth.com/data/9qdTHi0q/versions/qPwWpUrv/man_of_many_planes-0.2.1%2B1.21.1-fabric.jar
 https://cdn.modrinth.com/data/u6dRKJwZ/versions/9yyNIqwB/jei-1.21.1-fabric-19.22.1.316.jar
+https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar
