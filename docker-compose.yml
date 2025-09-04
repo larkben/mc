@@ -22,7 +22,13 @@
       ENABLE_QUERY: "true"
       ALLOW_FLIGHT: "true"
 
-      JVM_OPTS: "-Dfml.readTimeout=90 -Djava.net.preferIPv4Stack=true"
+      JVM_OPTS: >
+        -Dfml.readTimeout=180
+        -Dforge.loginTimeout=120
+        -Dnet.minecraft.server.login.timeout=120
+        -Djava.net.preferIPv4Stack=true
+        -Dsun.net.client.defaultConnectTimeout=30000
+        -Dsun.net.client.defaultReadTimeout=30000
       ENABLE_TCP_KEEPALIVE: "true"
 
     ports:
