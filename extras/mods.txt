@@ -48,6 +48,7 @@ https://cdn.modrinth.com/data/ZsrrjDbP/versions/qY6mQXNz/DungeonsAriseSevenSeas-
 https://cdn.modrinth.com/data/SszvX85I/versions/32K3L1IE/Cobblemon_MegaShowdown-10.0.8-release-fabric.jar
 https://cdn.modrinth.com/data/IkJ2gbjT/versions/rDvyyCvm/cobblemonextrastructures-1.21.1-1.1.0-fabric.jar
 https://cdn.modrinth.com/data/9tB2JtCC/versions/iHVHvezX/Cobblemon_Legends_Reborn-3.0.0-fabric.jar
+https://cdn.modrinth.com/data/Ha28R6CL/versions/Y91MRWtG/fabric-language-kotlin-1.13.5%2Bkotlin.2.2.10.jar
 https://cdn.modrinth.com/data/9qdTHi0q/versions/qPwWpUrv/man_of_many_planes-0.2.1%2B1.21.1-fabric.jar
 https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar
 
