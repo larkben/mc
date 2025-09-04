@@ -1,19 +1,24 @@
 https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar
-https://cdn.modrinth.com/data/P7dR8mSH/versions/gymiiTwJ/fabric-api-0.116.5%2B1.21.1.jar
+# Updated 9/4
+https://cdn.modrinth.com/data/P7dR8mSH/versions/9xIK4e8l/fabric-api-0.116.6%2B1.21.1.jar
+# Updated 4/3/25
 https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar
-https://cdn.modrinth.com/data/gvQqBUqZ/versions/MM5BBBOK/lithium-fabric-0.15.0%2Bmc1.21.1.jar
+# Updated 8/17/25
+https://cdn.modrinth.com/data/gvQqBUqZ/versions/pDfTqezk/lithium-fabric-0.18.0%2Bmc1.21.8.jar
 
 # Ridable Pokemon
 https://cdn.modrinth.com/data/vXREhDPP/versions/Ts9Wi7Kt/cobbleride-fabric-0.3.3%2B1.21.1.jar
 
 # Dependencies
+# Updated 9/4
 https://cdn.modrinth.com/data/MBAkmtvl/versions/gAqyWsf3/balm-fabric-1.21.1-21.0.49.jar
 https://cdn.modrinth.com/data/ohNO6lps/versions/NZACeAT3/ForgeConfigAPIPort-v21.1.4-1.21.1-Fabric.jar
-https://cdn.modrinth.com/data/8BmcQJ2H/versions/aHSu8jaP/geckolib-fabric-1.21.1-4.7.6.jar
+https://cdn.modrinth.com/data/8BmcQJ2H/versions/6UTA5nCc/geckolib-fabric-1.21.1-4.7.7.jar
 https://cdn.modrinth.com/data/SYrakyVL/versions/Hpg4BIe6/modopedia-fabric-1.21.1-1.1.5.jar
 https://cdn.modrinth.com/data/D1lhcTKz/versions/INJWFKpA/stateobserver-fabric-1.21.1-1.6.3.jar
 https://cdn.modrinth.com/data/LN9BxssP/versions/euSlaAtA/supermartijn642configlib-1.1.8-fabric-mc1.21.jar
 https://cdn.modrinth.com/data/rOUBggPv/versions/XMcUxulR/supermartijn642corelib-1.1.18a-fabric-mc1.21.jar
+
 https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar
 https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar
 
@@ -46,3 +51,7 @@ https://cdn.modrinth.com/data/SszvX85I/versions/32K3L1IE/Cobblemon_MegaShowdown-
 https://cdn.modrinth.com/data/FuRL3fNw/versions/OCcnmSvd/cobblemon-legendary-structures-2.2.jar
 https://cdn.modrinth.com/data/9qdTHi0q/versions/qPwWpUrv/man_of_many_planes-0.2.1%2B1.21.1-fabric.jar
 https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar
+
+# Addons 9/4
+https://cdn.modrinth.com/data/rlloIFEV/versions/tcbAyVcU/travelersbackpack-fabric-1.21.1-10.1.24.jar
+https://cdn.modrinth.com/data/POQ2i9zu/versions/fhGs4SPD/friendsandfoes-fabric-4.0.8%2Bmc1.21.1.jar
