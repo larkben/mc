@@ -3,8 +3,6 @@ https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%
 https://cdn.modrinth.com/data/P7dR8mSH/versions/9xIK4e8l/fabric-api-0.116.6%2B1.21.1.jar
 # Updated 4/3/25
 https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar
-# Updated 8/17/25
-https://cdn.modrinth.com/data/gvQqBUqZ/versions/pDfTqezk/lithium-fabric-0.18.0%2Bmc1.21.8.jar
 
 # Ridable Pokemon
 https://cdn.modrinth.com/data/vXREhDPP/versions/Ts9Wi7Kt/cobbleride-fabric-0.3.3%2B1.21.1.jar
@@ -54,4 +52,4 @@ https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar
 
 # Addons 9/4
 https://cdn.modrinth.com/data/rlloIFEV/versions/tcbAyVcU/travelersbackpack-fabric-1.21.1-10.1.24.jar
-https://cdn.modrinth.com/data/POQ2i9zu/versions/fhGs4SPD/friendsandfoes-fabric-4.0.8%2Bmc1.21.1.jar
+https://cdn.modrinth.com/data/K01OU20C/versions/xzMJDzyx/cardinal-components-api-6.1.2.jar
