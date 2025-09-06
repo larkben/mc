@@ -2,7 +2,7 @@
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "1.21.1"
-      MEMORY: "10G"
+      MEMORY: "8G"
       MOTD: "Fabric server on Docker"
 
       ENABLE_RCON: "true"

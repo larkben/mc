@@ -55,3 +55,7 @@ https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar
 # Addons 9/4
 https://cdn.modrinth.com/data/rlloIFEV/versions/tcbAyVcU/travelersbackpack-fabric-1.21.1-10.1.24.jar
 https://cdn.modrinth.com/data/K01OU20C/versions/xzMJDzyx/cardinal-components-api-6.1.2.jar
+
+# Addons 9/6 ~ Moving Elevators, Lithium
+https://cdn.modrinth.com/data/9KZOe6HD/versions/3oUjHjM8/movingelevators-1.4.11-fabric-mc1.21.jar
+https://cdn.modrinth.com/data/gvQqBUqZ/versions/MM5BBBOK/lithium-fabric-0.15.0%2Bmc1.21.1.jar

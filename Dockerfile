@@ -6,7 +6,7 @@ FROM itzg/minecraft-server:java21
 ENV EULA=TRUE \
     TYPE=FABRIC \
     VERSION=1.21.1 \
-    MEMORY=10G \
+    MEMORY=8G \
     MODS_FILE=/extras/mods.txt \
     REMOVE_OLD_MODS=TRUE \
     TZ=America/Chicago \
